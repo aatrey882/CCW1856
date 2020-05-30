@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2020-05-30 12:09:11">
+<sys_atf_step action="INSERT_OR_UPDATE">
+<active>true</active>
+<copied_from display_value=""/>
+<description>Validate there is at least one record in 'x_cdltd_ccw1856_cicd_team_setup' matching query:
+Environment Setup is not empty
+With a failure timeout of 5 Seconds</description>
+<display_name>Record Query</display_name>
+<inputs/>
+<mugshots_cache_json/>
+<notes/>
+<order>1</order>
+<snapshot display_value=""/>
+<step_config display_value="Record Query">2d82e3c7531400109e02ddeeff7b12a7</step_config>
+<sys_class_name>sys_atf_step</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-04-15 13:20:05</sys_created_on>
+<sys_id>9cb7cbf3900810107f4468f7a3a96f02</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_name>Record Query</sys_name>
+<sys_package display_value="Global" source="global">global</sys_package>
+<sys_policy/>
+<sys_scope display_value="Global">global</sys_scope>
+<sys_update_name>sys_atf_step_9cb7cbf3900810107f4468f7a3a96f02</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-04-15 13:20:05</sys_updated_on>
+<table>x_cdltd_ccw1856_cicd_team_setup</table>
+<test display_value="CCW1956 Pipeline Test">eb978bf3900810107f4468f7a3a96f1c</test>
+<timeout>1970-01-01 00:00:05</timeout>
+<warning_message/>
+</sys_atf_step>
+<sys_atf_step action="INSERT_OR_UPDATE">
+<active>true</active>
+<copied_from display_value=""/>
+<description>Open the 'CICD Team Setup' form with id '{{Step 1: Record Query.First record}}'</description>
+<display_name>Open an Existing Record</display_name>
+<inputs/>
+<mugshots_cache_json/>
+<notes/>
+<order>2</order>
+<snapshot display_value=""/>
+<step_config display_value="Open an Existing Record">5f2e0e535332120028bc29cac2dc34d3</step_config>
+<sys_class_name>sys_atf_step</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-04-15 13:20:29</sys_created_on>
+<sys_id>9ee78bf3900810107f4468f7a3a96fe9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_name>Open an Existing Record</sys_name>
+<sys_package display_value="Global" source="global">global</sys_package>
+<sys_policy/>
+<sys_scope display_value="Global">global</sys_scope>
+<sys_update_name>sys_atf_step_9ee78bf3900810107f4468f7a3a96fe9</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-04-15 13:20:29</sys_updated_on>
+<table>x_cdltd_ccw1856_cicd_team_setup</table>
+<test display_value="CCW1956 Pipeline Test">eb978bf3900810107f4468f7a3a96f1c</test>
+<timeout/>
+<warning_message/>
+</sys_atf_step>
+<sys_atf_step action="INSERT_OR_UPDATE">
+<active>true</active>
+<copied_from display_value=""/>
+<description>Validate that the form matches the following condition:
+Environment Setup is not empty
+and Name is not empty
+With a failure timeout of 5 Seconds</description>
+<display_name>Field Values Validation</display_name>
+<inputs/>
+<mugshots_cache_json/>
+<notes/>
+<order>3</order>
+<snapshot display_value=""/>
+<step_config display_value="Field Values Validation">1b97cd31872022008182c9ded0e3ece5</step_config>
+<sys_class_name>sys_atf_step</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-04-15 13:20:57</sys_created_on>
+<sys_id>2ff74ff3900810107f4468f7a3a96fb1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_name>Field Values Validation</sys_name>
+<sys_package display_value="Global" source="global">global</sys_package>
+<sys_policy/>
+<sys_scope display_value="Global">global</sys_scope>
+<sys_update_name>sys_atf_step_2ff74ff3900810107f4468f7a3a96fb1</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-04-15 13:20:57</sys_updated_on>
+<table>x_cdltd_ccw1856_cicd_team_setup</table>
+<test display_value="CCW1956 Pipeline Test">eb978bf3900810107f4468f7a3a96f1c</test>
+<timeout>1970-01-01 00:00:05</timeout>
+<warning_message/>
+</sys_atf_step>
+</unload>

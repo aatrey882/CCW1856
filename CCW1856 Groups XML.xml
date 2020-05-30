@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2020-05-30 16:26:05">
+<sys_user_group action="INSERT_OR_UPDATE">
+<active>true</active>
+<cost_center display_value=""/>
+<default_assignee display_value=""/>
+<description/>
+<email/>
+<exclude_manager>false</exclude_manager>
+<include_members>false</include_members>
+<manager display_value="Fred Luddy">5137153cc611227c000bbd1bd8cd2005</manager>
+<name>CCW1856</name>
+<parent display_value=""/>
+<points>0</points>
+<roles/>
+<source/>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-04-15 13:01:38</sys_created_on>
+<sys_id>c2a252de2f811410ac02a55df699b68e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-04-15 13:01:38</sys_updated_on>
+<type/>
+</sys_user_group>
+</unload>
